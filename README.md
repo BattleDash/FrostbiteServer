@@ -1,4 +1,4 @@
-# <img src="./Frostbite_logo.svg#gh-light-mode-only" alt="Frostbite Logo" width="200px" class="gh-light-mode-only"/> FrostbiteServer
+# <img src="./images/Frostbite_logo_light.svg#gh-dark-mode-only" alt="Frostbite Logo" width="200px" class="gh-light-mode-only" /> <img src="./images/Frostbite_logo.svg#gh-light-mode-only" alt="Frostbite Logo" width="200px" /> FrostbiteServer
 ### An open-source work-in-progress reverse-engineered dedicated server for games running on the Frostbite engine.
 ### When finished, this will be used to host dedicated servers for [Kyber](https://github.com/BattleDash/Kyber).
 
