@@ -18,7 +18,7 @@ What's done:
 
 What's in-progress:
 * InitFS Lua support for filesystem
-* Frostbite settings system (Server.EnableHealthRegen, etc)
+* Frostbite settings system (support for Server.EnableHealthRegen commands, etc)
 * EBX logic execution
 * Remote administration page & RCON
 * Terrain loading
