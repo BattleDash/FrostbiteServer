@@ -1,5 +1,11 @@
 .gradle
+.idea
 /build/
+/logs/
+
+# Too big to upload, only used for debugging
+/src/main/resources/strings.txt
+/src/test/resources/packets.txt
 
 # Ignore Gradle GUI config
 gradle-app.setting

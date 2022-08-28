@@ -1,0 +1,23 @@
+package me.battledash.kyber.network.packet;
+
+public enum DisconnectReason {
+    OK,
+    WRONG_PROTOCOL_VERSION,
+    WRONG_TITLE_VERSION,
+    SERVER_FULL,
+    KICKED_OUT,
+    BANNED,
+    GENERIC_ERROR,
+    WRONG_PASSWORD,
+    MISSING_CONTENT,
+    NOT_VERIFIED,
+    TIMED_OUT,
+    CONNECT_FAILED,
+    NO_REPLY,
+    ACCEPT_FAILED,
+    MISMATCHING_CONTENT,
+    MALFORMED_PACKET,
+    SEND_FAIL,
+    CONNECTION_HANDSHAKING,
+    DUPLICATE_CONNECTION
+}
