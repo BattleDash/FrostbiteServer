@@ -54,7 +54,7 @@ public class AssetManager {
     public void loadStringHashes() throws IOException {
         InputStream stream = AssetManager.class.getClassLoader().getResourceAsStream("strings.txt");
         if (stream == null) {
-            throw new IOException("Could not find strings.txt");
+            return;
         }
 
         IOUtils.readLines(stream, Charset.defaultCharset()).forEach(this::registerString);
