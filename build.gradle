@@ -75,16 +75,9 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
-configurations {
-    shadow
-    compile.extendsFrom shadow
-}
-
 shadowJar {
-    configurations = [project.configurations.shadow]
     classifier ''
     transform(com.github.jengelman.gradle.plugins.shadow.transformers.Log4j2PluginsCacheFileTransformer)
-
 }
 
 task copyToBuildsDir(type: Copy) {
