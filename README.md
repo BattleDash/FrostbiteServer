@@ -4,7 +4,7 @@
 
 ---
 
-This is being built specifically for STAR WARS Battlefront II, but can be somewhat easily adapted to other games running on the engine, you will need knowledge of reverse engineering and the structural layout of the Frostbite engine (the BF3 Server/PDB is a good resource).
+This is being built specifically for STAR WARS Battlefront II, but can be somewhat easily adapted to other games running on the engine, the filesystem and protocol in particular would need to be modified for the version of Frostbite the game runs on. You will need knowledge of reverse engineering and the structural layout of the Frostbite engine (the BF3 Server/PDB is a good resource).
 
 What's done:
 * Main loop
