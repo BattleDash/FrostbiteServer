@@ -331,8 +331,6 @@ public class AssetManager {
 
         this.ebxAssetCache.put(entry.getGuid(), asset);
 
-        log.info("Loaded asset {}", entry.getName());
-
         return asset;
     }
 

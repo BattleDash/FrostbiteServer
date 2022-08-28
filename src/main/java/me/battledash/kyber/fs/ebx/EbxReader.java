@@ -245,7 +245,6 @@ public class EbxReader extends NativeReader {
             }
         }
 
-        int typeId = 0;
         int index = 0;
 
         for (EbxInstance instance : this.instances) {
