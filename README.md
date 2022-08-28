@@ -14,7 +14,7 @@ What's done:
 * Level loading and Entity creation
 * Connecting to the server
 * Event/Message system
-* Ghost (Player & Entity replication, network StreamManager unfinished, still bein reversed)
+* Ghost (Player & Entity replication, network StreamManager unfinished, still being reversed)
 
 What's in-progress:
 * InitFS Lua support for filesystem
